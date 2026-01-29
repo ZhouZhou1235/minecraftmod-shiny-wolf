@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "shiny-wolf",
+	"version": "${version}",
+	"name": "[pinkcandyzhou]Shiny Wolf 闪亮狼狼",
+	"description": "Added some items about wolves to make them shine brighter and stronger.",
+	"authors": [
+		"pinkcandyzhou"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/shiny-wolf/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.pinkcandy.Shinywolf"
+		],
+		"client": [
+			"com.pinkcandy.ShinywolfClient"
+		]
+	},
+	"mixins": [
+		"shiny-wolf.mixins.json",
+		{
+			"config": "shiny-wolf.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
