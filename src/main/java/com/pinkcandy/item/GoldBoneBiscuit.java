@@ -8,16 +8,26 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 
-// 黄金骨头
-public class GoldBone {
-    public static final Item THE_ITEM = register("gold_bone",Item::new,new Item.Properties()); // MC物品
+// 黄金骨头饼干
+public class GoldBoneBiscuit {
+    // MC物品
+    public static final Item THE_ITEM = register("gold_bone_biscuit", 
+        Item::new, 
+        new Item.Properties()
+            .food(new FoodProperties.Builder()
+                .nutrition(4)
+                .saturationModifier(0f)
+                .build()
+            )
+    );
     // 初始化
     public static void initialize(){
         ItemGroupEvents
-        .modifyEntriesEvent(CreativeModeTabs.INGREDIENTS) // 创造模式物品分类
+        .modifyEntriesEvent(CreativeModeTabs.FOOD_AND_DRINKS) // 创造模式物品分类
         .register((itemGroup)->itemGroup.accept(THE_ITEM));
     }
     // 物品注册

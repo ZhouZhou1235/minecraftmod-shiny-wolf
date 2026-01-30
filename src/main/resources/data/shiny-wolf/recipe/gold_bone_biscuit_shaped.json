@@ -1,0 +1,18 @@
+
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "MBM",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:wheat",
+        "M": "minecraft:mutton",
+        "B": "minecraft:bone"
+    },
+    "result": {
+        "id": "shiny-wolf:gold_bone_biscuit",
+        "count": 3
+    }
+}

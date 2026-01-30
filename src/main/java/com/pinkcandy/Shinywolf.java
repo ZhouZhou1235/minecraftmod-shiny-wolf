@@ -3,8 +3,8 @@ package com.pinkcandy;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import com.pinkcandy.item.GoldBone;
+import com.pinkcandy.handler.GoldBoneBiscuitUsageHandler;
+import com.pinkcandy.item.GoldBoneBiscuit;
 
 // 模组加载器
 public class Shinywolf implements ModInitializer {
@@ -15,6 +15,8 @@ public class Shinywolf implements ModInitializer {
 	public void onInitialize(){
 		LOGGER.info("minecraft mod shiny-wolf by pinkcandyzhou");
 		// 物品注册
-		GoldBone.initialize();
+		GoldBoneBiscuit.initialize();
+		// 事件处理
+		GoldBoneBiscuitUsageHandler.register();
 	}
 }
