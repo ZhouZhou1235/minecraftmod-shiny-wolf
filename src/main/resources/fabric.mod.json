@@ -2,14 +2,14 @@
 	"schemaVersion": 1,
 	"id": "shiny-wolf",
 	"version": "${version}",
-	"name": "[pinkcandyzhou]Shiny Wolf 闪亮狼狼",
-	"description": "Added some items about wolves to make them shine brighter and stronger.",
+	"name": "[pinkcandyzhou]Shiny Wolf",
+	"description": "Added some bone items about wolves to make them shine brighter and stronger. 添加了一些可合成的多彩骨头，让狼变得更闪亮强大。",
 	"authors": [
 		"pinkcandyzhou"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/ZhouZhou1235",
+		"sources": "https://github.com/ZhouZhou1235/minecraftmod-shiny-wolf"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/shiny-wolf/icon.png",

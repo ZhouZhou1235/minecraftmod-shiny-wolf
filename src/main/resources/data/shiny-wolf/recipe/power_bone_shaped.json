@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#B#",
+        " # "
+    ],
+    "key": {
+        "#": "minecraft:cooked_mutton",
+        "B": "minecraft:bone"
+    },
+    "result": {
+        "id": "shiny-wolf:power_bone",
+        "count": 3
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#B#",
+        " # "
+    ],
+    "key": {
+        "#": "minecraft:rotten_flesh",
+        "B": "minecraft:bone"
+    },
+    "result": {
+        "id": "shiny-wolf:abandon_bone",
+        "count": 3
+    }
+}

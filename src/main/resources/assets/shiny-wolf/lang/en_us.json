@@ -1,3 +1,9 @@
 {
-    "item.shiny-wolf.gold_bone_biscuit": "gold bone biscuit"
+    "item.shiny-wolf.gold_bone": "Gold Bone",
+    "item.shiny-wolf.obedient_bone": "Obedient Bone",
+    "item.shiny-wolf.agile_bone": "Agile Bone",
+    "item.shiny-wolf.power_bone": "Power Bone",
+    "item.shiny-wolf.abandon_bone": "Abandon Bone",
+    "item.shiny-wolf.love_bone": "Love Bone",
+    "item.shiny-wolf.name_bone": "Name Bone"
 }

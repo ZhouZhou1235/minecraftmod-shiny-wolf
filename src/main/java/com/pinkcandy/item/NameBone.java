@@ -1,7 +1,9 @@
 package com.pinkcandy.item;
 
 import java.util.function.Function;
+
 import com.pinkcandy.Shinywolf;
+
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -12,10 +14,10 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 
-// 黄金骨头饼干
-public class GoldBoneBiscuit {
+// 命名骨头
+public class NameBone {
     // MC物品
-    public static final Item THE_ITEM = register("gold_bone_biscuit", 
+    public static final Item THE_ITEM = register("name_bone", 
         Item::new, 
         new Item.Properties()
             .food(new FoodProperties.Builder()

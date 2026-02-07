@@ -3,8 +3,21 @@ package com.pinkcandy;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.pinkcandy.handler.GoldBoneBiscuitUsageHandler;
-import com.pinkcandy.item.GoldBoneBiscuit;
+
+import com.pinkcandy.handler.AbandonBoneHandler;
+import com.pinkcandy.handler.AgileBoneHandler;
+import com.pinkcandy.handler.GoldBoneHandler;
+import com.pinkcandy.handler.LoveBoneHandler;
+import com.pinkcandy.handler.NameBoneHandler;
+import com.pinkcandy.handler.ObedientBoneHandler;
+import com.pinkcandy.handler.PowerBoneHandler;
+import com.pinkcandy.item.AbandonBone;
+import com.pinkcandy.item.AgileBone;
+import com.pinkcandy.item.GoldBone;
+import com.pinkcandy.item.LoveBone;
+import com.pinkcandy.item.NameBone;
+import com.pinkcandy.item.ObedientBone;
+import com.pinkcandy.item.PowerBone;
 
 // 模组加载器
 public class Shinywolf implements ModInitializer {
@@ -15,8 +28,20 @@ public class Shinywolf implements ModInitializer {
 	public void onInitialize(){
 		LOGGER.info("minecraft mod shiny-wolf by pinkcandyzhou");
 		// 物品注册
-		GoldBoneBiscuit.initialize();
+		AbandonBone.initialize();
+		AgileBone.initialize();
+		GoldBone.initialize();
+		LoveBone.initialize();
+		NameBone.initialize();
+		ObedientBone.initialize();
+		PowerBone.initialize();
 		// 事件处理
-		GoldBoneBiscuitUsageHandler.register();
+		AbandonBoneHandler.register();
+		AgileBoneHandler.register();
+		GoldBoneHandler.register();
+		LoveBoneHandler.register();
+		NameBoneHandler.register();
+		ObedientBoneHandler.register();
+		PowerBoneHandler.register();
 	}
 }

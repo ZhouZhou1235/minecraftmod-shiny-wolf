@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#B#",
+        " # "
+    ],
+    "key": {
+        "#": "minecraft:sweet_berries",
+        "B": "minecraft:bone"
+    },
+    "result": {
+        "id": "shiny-wolf:love_bone",
+        "count": 3
+    }
+}

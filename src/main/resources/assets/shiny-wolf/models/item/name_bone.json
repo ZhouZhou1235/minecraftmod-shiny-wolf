@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "shiny-wolf:item/gold_bone_biscuit"
+    "layer0": "shiny-wolf:item/name_bone"
   }
 }
