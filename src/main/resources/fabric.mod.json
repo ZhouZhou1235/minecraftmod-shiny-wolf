@@ -2,8 +2,8 @@
 	"schemaVersion": 1,
 	"id": "shiny-wolf",
 	"version": "${version}",
-	"name": "[pinkcandyzhou]Shiny Wolf",
-	"description": "Added some bone items about wolves to make them shine brighter and stronger. 添加了一些可合成的多彩骨头，让狼变得更闪亮强大。",
+	"name": "Shiny Wolf",
+	"description": "Added some craftable colorful bones to make the wolf shine brighter and stronger. 添加了一些可合成多彩骨头，让狼变得更闪亮强大。",
 	"authors": [
 		"pinkcandyzhou"
 	],
