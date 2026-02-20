@@ -4,6 +4,9 @@ build/
 out/
 classes/
 
+# maven
+target/
+
 # vscode
 .settings/
 .vscode/

@@ -1,0 +1,7 @@
+# Spigot 插件描述文件
+name: ShinyWolf
+version: 0.0.0
+main: com.pinkcandy.myplugin.Main
+api-version: 1.21
+author: ZhouZhou1235
+description: test......
