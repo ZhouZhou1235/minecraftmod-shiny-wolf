@@ -4,14 +4,12 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.pinkcandy.handler.AbandonBoneHandler;
 import com.pinkcandy.handler.AgileBoneHandler;
 import com.pinkcandy.handler.GoldBoneHandler;
 import com.pinkcandy.handler.LoveBoneHandler;
 import com.pinkcandy.handler.NameBoneHandler;
 import com.pinkcandy.handler.ObedientBoneHandler;
 import com.pinkcandy.handler.PowerBoneHandler;
-import com.pinkcandy.item.AbandonBone;
 import com.pinkcandy.item.AgileBone;
 import com.pinkcandy.item.GoldBone;
 import com.pinkcandy.item.LoveBone;
@@ -28,7 +26,6 @@ public class Shinywolf implements ModInitializer {
 	public void onInitialize(){
 		LOGGER.info("minecraft mod shiny-wolf by pinkcandyzhou");
 		// 物品注册
-		AbandonBone.initialize();
 		AgileBone.initialize();
 		GoldBone.initialize();
 		LoveBone.initialize();
@@ -36,7 +33,6 @@ public class Shinywolf implements ModInitializer {
 		ObedientBone.initialize();
 		PowerBone.initialize();
 		// 事件处理
-		AbandonBoneHandler.register();
 		AgileBoneHandler.register();
 		GoldBoneHandler.register();
 		LoveBoneHandler.register();

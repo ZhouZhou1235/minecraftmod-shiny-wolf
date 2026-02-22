@@ -3,7 +3,7 @@
 	"id": "shiny-wolf",
 	"version": "${version}",
 	"name": "Shiny Wolf",
-	"description": "Added some craftable colorful bones to make the wolf shine brighter and stronger. 添加了一些可合成多彩骨头，让狼变得更闪亮强大。",
+	"description": "Added some craftable pet related items to make pets more shiny and powerful.",
 	"authors": [
 		"pinkcandyzhou"
 	],
@@ -31,7 +31,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.18.4",
-		"minecraft": "~1.21.11",
+		"minecraft": "~1.21.8",
 		"java": ">=21",
 		"fabric-api": "*"
 	}
